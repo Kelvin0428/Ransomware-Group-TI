@@ -91,7 +91,7 @@ The chart positioned on top presents a visual comparison of the TTPs between Typ
 
 > **Example**: BlackCat, a Ransomware-as-a-Service (RaaS) group, uses the Emotet botnet as their initial entry point. After gaining foothold, the botnet installs a Cobalt Strike beacon, acting as a secondary payload, which allows BlackCat to execute lateral movements within the compromised systems. Similarly, in the case of Black Basta, the goal of using Emotet is specifically to drop Qakbot. The link shown in the below figure drops a .Ink file that is disguised as a document, which deploys Qakbot onto the system. Black Basta was observed to utilise Qakbot, Mimikatz, Rclone, SDBOT as potential payloads through this technique.
 
-![Alt text for the image](/Img/Picture4.png "Optional title")
+![Ref. https://www.kroll.com/en/insights/publications/cyber/black-basta-technical-analysis](/Img/Picture4.png "Optional title")
 
 ### Mitigation Strategies
 
